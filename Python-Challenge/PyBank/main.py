@@ -62,7 +62,7 @@ print(f"Greatest Increase in Profits:, {greatest_increase_month}, (${highest})")
 print(f"Greatest Decrease in Profits:, {greatest_decrease_month}, (${lowest})")
 
 # Text File
-output_file = os.path.join('.', 'Resources', 'budget_data_analysis.text')
+output_file = os.path.join('.', 'analysis', 'budget_data_analysis.text')
 
 with open(output_file, 'w',) as txtfile:
 

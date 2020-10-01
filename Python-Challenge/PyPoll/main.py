@@ -63,7 +63,7 @@ print(f"Winner: {winner_name}")
 print(f"---------------------------")
 
 # Text File
-output_file = os.path.join('.', 'Resources', 'election_data_analysis.text')
+output_file = os.path.join('.', 'analysis', 'election_data_analysis.text')
 
 with open(output_file, 'w',) as txtfile:
 
