@@ -1,0 +1,177 @@
+/*
+ First External CSS Stylesheet
+ */
+
+/* Styling for HTML elements */
+
+body {
+    /* padding: 100px; */
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgb(10, 67, 94);
+    background: rgb(235, 203, 22);
+    position:relative;
+  }
+  /* body .first_line{background: yellowgreen;
+
+    width: 100%;
+    height: 100%;
+    background-color: yellowgreen;
+    position:relative;
+    display:inline-block;
+    left:50px;
+  } */
+
+  #first_line_color{background: rgb(48, 70, 3);
+
+    width: 100%;
+    height: 100%;
+    background-color: rgb(48, 70, 3);
+    position:relative;
+    display:inline-block;
+    left:0px;
+  }
+
+  body .row1{background: rgb(48, 70, 3);
+
+    width: 100%;
+    height: 100%;
+    background-color: rgb(48, 70, 3);
+    position:relative;
+    display:inline-block;
+    left:0px;
+  }
+
+
+  .first_line >.div1 {
+    width: 170px;
+    height: 60px;
+    border: 1px solid rgb(10, 67, 94);
+    background-color: rgb(235, 203, 22); 
+    position:relative;
+    display:inline-block;
+    left:50px;
+  }
+  /* .first_line>.first_line_blank>p{display:inline-block;} */
+  .first_line>.div1>h1{text-align: center; color:rgb(10, 67, 94);}
+
+  /* .btn-group{position:absolute;
+    right:200px;
+    display:inline-block;} */
+
+  
+  .form-inline>.dropdown{display:inline-block;position:absolute;right:32%;top:40%}
+  .form-inline>form>.MyButton1{position:absolute;right:15%;display:inline-block;}
+  .form-inline>form>.MyButton2{position:absolute;right:5%; display:inline-block;}
+  
+  
+    /* float:right} */
+
+  header {
+    background: rgb(12, 116, 214);
+  }
+  
+  header>h1 {
+    padding: 0px ;
+    margin: 0px;
+    margin-bottom: 0px;
+    font-size: 48px;
+    /* color: #eee; */
+    color:yellowgreen;
+    text-align: left;
+  }
+  
+  /* h2 {
+    font-size: 24px;
+  } */
+  
+  a {
+    color: #d21034;
+  }
+  
+  .Col_container{
+    /* margin-left:30px;*/
+    margin:30px; 
+    background: rgb(12, 116, 214);
+  /* color:rgb(192, 146, 146); */
+  }
+
+  
+
+  /* Selecting elements by class */
+  .container1 {
+    /* width: 1000px;
+    height: 1000px; */
+    position:relative;
+    margin-top: 10px ;
+    margin-left: 10px ;
+    margin-right: 10px ;
+    padding: 5px;
+    background:green;
+  }
+
+  .container2 {
+    /* width: 1000px;
+    height: 1000px; */
+    position:relative;
+    margin-top: 10px ;
+    margin-left: 10px ;
+    margin-right: 10px ;
+    padding: 20px;
+    background: rgb(235, 203, 22);
+  }
+  
+  #main_figure{
+    /* width: 250px;
+    height: 250px;
+    border-style: solid;
+    border-color: green;
+    border-width: 5px; */
+    /* position:absolute;
+    top:50px; */
+    /* left:50px;   */
+    float:left
+  }
+  
+  #introduction>p{color:rgb(235, 203, 22)}
+
+  #main_figure>h2{position:absolute;
+    right:0px;
+    top:0px;
+}
+
+.container>h2{position:relative;
+    right:500px;
+    top:0px;
+    color:rgb(235, 203, 22);
+    font-size:400
+}
+
+.container_data{padding: 10px ;
+  margin: 30px;
+background-color: rgb(29, 140, 245)}
+
+/* .container2>header>h2{position:relative;
+  right:500px;
+  top:0px;
+  color:red;
+  font-size:500
+} */
+
+header>h2 {
+  padding: 0px ;
+  margin: 0px;
+  margin-bottom: 0px;
+  font-size: 28px;
+  color:rgb(235, 203, 22);
+  text-align: center;
+}
+
+figure figcaption {
+  border: rgb(235, 203, 22);
+  text-align: center;
+  color:rgb(39, 228, 140);
+}
